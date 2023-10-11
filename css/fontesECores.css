@@ -1,0 +1,26 @@
+/* Fonte */
+.font-1-xxl {
+  font: 400 3.625rem "Jolly Lodger", monospace;
+}
+.font-1-xl {
+  font: 400 2.25rem "Jolly Lodger", monospace;
+}
+.font-1-m {
+  font: 400 1.5rem "Rubik", monospace;
+}
+/* Cor */
+:root{
+  --cor-01: #000015;
+  --cor-02: #FE772D;
+  --cor-03: #333333;
+}
+
+.cor-01{
+  color: var(--cor-01);
+}
+.cor-02{
+  color: var(--cor-02);
+}
+.cor-03{
+  color: var(--cor-02);
+}
