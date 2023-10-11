@@ -1,0 +1,26 @@
+.header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .header h2 {
+    color: #f5f5f5;
+    font-size: 3rem;
+  }
+  .links {
+    display: flex;
+    gap: 24px;
+  }
+  .links a {
+    color: #f5f5f5;
+    text-decoration: none;
+  }
+  .header button {
+    padding: 16px 24px;
+    background: var(--cor-02);
+    border: none;
+    border-radius: 5px;
+    color: #292d32;
+  }
+  
