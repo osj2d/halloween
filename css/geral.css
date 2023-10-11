@@ -1,0 +1,23 @@
+div,
+body,
+h1,
+h2,
+a,
+section,
+span,
+img,
+p,
+button {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: var(--cor-01);
+}
+.container {
+  display: grid;
+  justify-content: center;
+  width: 1440px;
+  margin: 0 auto;
+}
