@@ -1,0 +1,27 @@
+.atracoes {
+  max-width: 1000px;
+  margin: 48px auto 0 auto;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  justify-content: center;
+}
+.atracoes span {
+  flex: 0 0 33.333%;
+  display: block;
+  margin-bottom: 48px;
+  /* display: flex; */
+  position: relative;
+  gap: 16px;
+  
+}
+
+.atracoes span::before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  background-image: url(/img/vetores/tick-square.svg);
+  left: -50px;
+}
