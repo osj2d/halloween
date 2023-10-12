@@ -1,0 +1,25 @@
+.chamada {
+  display: grid;
+  justify-items: center;
+  position: relative;
+}
+
+.chamada .chamadaConteudo{
+    text-align: center;
+    z-index: 1;
+}
+ .chamada .data{
+    position: relative;
+    color: #ffffff;
+}
+.chamada .data::before {
+  content: "";
+  width: 27px;
+  height: 27px;
+  left: -40px;
+  background-image: url(../img/vetores/calendar.svg);
+  position: absolute;
+}
+.chamada .imagem{
+    margin-top: -150px;
+}

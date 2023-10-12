@@ -14,10 +14,16 @@ button {
 
 body {
   background-color: var(--cor-01);
+  overflow-x: hidden;
 }
 .container {
   display: grid;
   justify-content: center;
   width: 1440px;
   margin: 0 auto;
+  gap: 50px;
+}
+img{
+    max-width: 100%;
+    display: block;
 }
