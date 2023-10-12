@@ -1,0 +1,51 @@
+.ingressosVenda {
+  display: grid;
+  gap: 16px;
+  justify-items: center;
+  justify-content: center;
+}
+.ingressosVenda h1 {
+  margin-bottom: 46px;
+}
+.tickets {
+  display: flex;
+  gap: 16px;
+}
+.ticket {
+  background: purple;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 25px 16px;
+  border-radius: 10px;
+}
+.ticket .preco {
+  font: 700 2.5rem "Montserrat", monospace;
+}
+.ticket .btn {
+  padding: 16px 76px;
+  border: none;
+  border-radius: 10px;
+}
+.ticket .btn:hover {
+  cursor: pointer;
+}
+.ticket.estilo1 {
+  color: #ffffff;
+  background: var(--cor-03);
+}
+.ticket.estilo1 .btn {
+  color: var(--cor-01);
+  background: var(--cor-02);
+}
+.ticket.estilo2 {
+  color: var(--cor-03);
+  background: var(--cor-02);
+}
+.ticket.estilo2 .btn {
+  color: #ffffff;
+  background: var(--cor-03);
+}
