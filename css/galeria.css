@@ -1,0 +1,9 @@
+.galeria h1{
+    text-align: center;
+}
+.galeriaImagens{
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(5, 244px);
+    gap: 48px;
+}
