@@ -1,0 +1,79 @@
+.ingressos {
+}
+.IngressosChamada {
+  display: grid;
+  justify-items: center;
+  gap: 48px;
+}
+
+.IngressosChamada h1 {
+  color: #fe2d2d;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+  display: grid;
+  align-items: center;
+}
+
+.IngressosChamada h1::before {
+  position: absolute;
+  content: "";
+  width: 48px;
+  height: 48px;
+  background-image: url("../img/vetores/arrow-left.svg");
+  left: -70px;
+  transform: rotate(180deg);
+}
+.IngressosChamada h1::after {
+  position: absolute;
+  content: "";
+  width: 48px;
+  height: 48px;
+  background-image: url("../img/vetores/arrow-left.svg");
+  right: -70px;
+}
+.IngressosChamada h2 {
+  font: 400 3.625rem "Jolly Lodger", monospace;
+  text-align: center;
+}
+.IngressosChamada p {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 150%;
+  max-width: 65ch;
+}
+.ticketStyle {
+  margin-top: 48px;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 96px auto;
+  justify-content: center;
+  align-items: center;
+}
+.ticketStyle .ticketLocalEData {
+  max-width: 22ch;
+  font: 400 1.25rem "Rubik", monospace;
+  /* text-align: center; */
+  padding: 18px 24px 18px 56px;
+  border: 2px solid white;
+  border-radius: 15px;
+  border-left: none;
+  position: relative;
+}
+.ticketStyle .ticketLocalEData::before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background: url(/img/vetores/location.svg) no-repeat;
+  position: absolute;
+  bottom: 18px;
+  left: 16px;
+}
+
+.ticketStyle img {
+  padding: 18px 24px;
+  border: 2px solid white;
+  border-radius: 15px;
+  border-right: none;
+}
