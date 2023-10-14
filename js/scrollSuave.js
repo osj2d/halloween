@@ -2,6 +2,7 @@ export default class ScrollSuave{
     constructor (links){
         this.linksInternos = document.querySelectorAll(links);
         this.scrollToSection = this.scrollToSection.bind(this);
+
     }
 
     scrollToSection(event){
