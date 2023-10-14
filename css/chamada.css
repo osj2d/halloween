@@ -23,3 +23,16 @@
 .chamada .imagem{
     margin-top: -150px;
 }
+/* Contador */
+
+.contadorDeDias{
+  position: absolute;
+  top: 150px;
+}
+
+.contador{
+  margin-top: 160px;
+  font: 400 5rem "Jolly Lodger", monospace;
+  color: var(--cor-02);
+  text-align: center;
+}
