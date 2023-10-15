@@ -1,6 +1,6 @@
-import ScrollSuave from './scrollSuave.js'
-import Contador from './contador.js'
-import ModalGaleria from './modalGaleria.js'
+import ScrollSuave from '../js/scrollSuave.js'
+import Contador from '../js/contador.js'
+import ModalGaleria from '../js/modalGaleria.js'
 
 const scrollSuave = new ScrollSuave('.links a[href^="#"], .linkBtn a[href^="#"]');
 scrollSuave.init();
